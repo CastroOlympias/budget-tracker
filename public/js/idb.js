@@ -30,7 +30,7 @@ request.onerror = function (event) {
 // this function will be executed if attempt to submit a new wallet and there's no interenet connection
 function saveRecord(record) {
     // open a new transaction with the database with read and write permissions
-    const transaction = db.transaction(['new_Wallet'], 'readwrite');
+    const transaction = db.transaction(['new_wallet'], 'readwrite');
 
     // access the object store for `new_Wallet`
     const walletObjectStore = transaction.objectStore('new_wallet');
