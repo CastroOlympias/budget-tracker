@@ -5,8 +5,8 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
   "./index.html",
   "./manifest.json",
-  "./service-wroker.js",
-  "./css/style.css",
+  "./service-worker.js",
+  "./css/styles.css",
   "./icons/icon-72x72.png",
   "./icons/icon-96x96.png",
   "./icons/icon-128x128.png",
