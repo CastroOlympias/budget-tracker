@@ -2,8 +2,6 @@
     "name": "Budget Tracker",
     "short_name": "Budget",
     "description": "Budget tracking app that works offline using an offline database until internet connected.",
-    "background_color": "#01579b",
-    "theme_color": "#ffffff",
     "icons": [
         {
             "src": "/icons/icon-72x72.png",
@@ -45,5 +43,9 @@
             "type": "image/png",
             "sizes": "512x512"
         }
-    ]
+    ],
+    "background_color": "#01579b",
+    "theme_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone"
 }
