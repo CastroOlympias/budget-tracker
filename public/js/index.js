@@ -121,7 +121,7 @@ function sendTransaction(isAdding) {
       "Content-Type": "application/json"
     }
   })
-  .then(response => { z   
+  .then(response => {    
     return response.json();
   })
   .then(data => {
