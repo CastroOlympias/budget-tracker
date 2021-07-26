@@ -5,7 +5,7 @@
 ## Description
 This is my first offline and PWA app, using mongoose, serverice workers and webpack
 
-Link to <a href="https://castro-olympias-portfolio.herokuapp.com/">React Portfolio on Heroku</a>
+Link to <a href="https://castro-olympias-budget.herokuapp.com/">Heroku budget-tracker</a>
 
 This gif demonstrates offline capabilities to save deposit and withdrawal data to the IndexedDB database, while demonstrating connectivity to the Atlas MongoDB that is setup for the Heroku app.
 <img src="public/media/Budget Tracker Offline.gif"/>
